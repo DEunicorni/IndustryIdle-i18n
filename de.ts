@@ -76,10 +76,10 @@ export const DE = {
     RocketFactory: "Raketenfabrik",
     BuildingPermit: "Baugenehmigung",
     BuildingPermitDesc:
-        "Du hast Baugenehmigungen für %{amount} Gebäude, davon hast du bereits %{amountBuilt} genutzt und %{amountLeft} übrig",
+        "Du besitzt Baugenehmigungen für %{amount} Gebäude, davon hast du bereits %{amountBuilt} genutzt und %{amountLeft} übrig",
     BuildingLocked: "Das Gebäude ist noch nicht verfügbar, du musst es zuerst im Forschungslabor freischalten",
-    MaxBuilders: "Max. Bauleiter",
-    MaxBuildersDesc: "Anzahl der Gebäude, die du gleichzeitig bauen kannst",
+    MaxBuilders: "Verfügbare Bautrupps",
+    MaxBuildersDesc: "Anzahl an Baustellen, die gleichzeitig eröffnet werden können.",
     Silicon: "Silizium",
     AluminumMine: "Aluminiummine",
     CopperMine: "Kupfermine",
@@ -90,10 +90,10 @@ export const DE = {
     ResearchLab: "Forschungslabor",
     TradeCenter: "Handelszentrum",
     Resources: "Ressourcen",
-    NotEnoughCash: "Du hast nicht genug Geld für diese Aktion",
-    NotEnoughSwissMoney: "Du hast nicht genug Schweizer Franken für diese Aktion",
+    NotEnoughCash: "Dein Kontostand ist zu niedrig.",
+    NotEnoughSwissMoney: "Du hast nicht genug Schweizer Franken.",
     BuildingNotEnoughFuel: "💡 Nicht genug %{fuel}",
-    AutoSell: "automatischer Verkauf",
+    AutoSell: "Automatischer Verkauf",
     Change: "Ändern",
     StatisticsBureau: "Statistikbüro",
     LogisticsDepartment: "Logistikinstitut",
@@ -187,10 +187,10 @@ export const DE = {
     MaxInputDistance: "Max. Importentfernung",
     MaxInputDistanceDesc:
         "Die maximale Distanz zu einem Gebäude, aus dem Rohstoffe bezogen werden, gemessen in Zellenanzahlen",
-    AutoSellConcurrency: "automatische Verkaufsanzahl",
-    AutoSellConcurrencyDesc: "Maximale Anzahl der Ressourcen, die gleichzeitig automatisch verkauft werden können",
+    AutoSellConcurrency: "Automatische Verkaufsanzahl",
+    AutoSellConcurrencyDesc: "Menge an Ressourcen, die gleichzeitig verkauft werden können.",
     MaxAutoSellConcurrencyReached:
-        "Du hast die maximale automatische Verkaufsanzahl erreicht, schalte einen anderen Handel ab, um diesen zu aktivieren",
+        "Die maximale Verkaufsanzahl wurde erreicht. Breche einen anderen Handel ab, um diesen zu aktivieren.",
     WallStreet: "Wall Street",
     MarketCap: "Marktkapitalisierung",
     MarketCapDesc: "Gesamtkapital (d.h. Marktwert) deines Unternehmens",
@@ -463,7 +463,7 @@ export const DE = {
     PrestigeAlertContent:
         "Dein Unternehmen wird aufgelöst. Du erhälst %{amount} Schweizer Franken und wirst eine neue Firma in %{city} gründen",
     PrestigeCurrencyDesc:
-        "Dies ist das Geld auf deinem geheimen Schweizer Bankkonto. Du kannst es mitnehmen, wenn du in einer neuen Stadt anfängst",
+        "Das Geld auf deinem geheimen Schweizer Bankkonto. Es wird bei einem Kartenneustart in die neue Stadt übertragen.",
     Prestige: "Einzahlen",
     Cancel: "Abbrechen",
     SaveFileCorrupted: "Spielstand beschädigt",
@@ -473,10 +473,10 @@ export const DE = {
         "Bitte überprüfe deine Internetverbindung. Wenn das Problem weiterhin besteht, wende dich bitte an den Support",
     ExpansionPackIncompatible:
         "Du versuchst einen Spielstand mit Erweiterungspaketen zu laden, aber dein Spiel verfügt nicht über die erforderlichen Erweiterungspakete",
-    CashIn: "Einzahlen",
+    CashIn: "Verdienst",
     CurrentCity: "Aktuelle Stadt",
     CashInDesc:
-        "Du erhälst diesen Betrag auf dein Schweizer Bankkonto, wenn du in einer neuen Stadt beginnst. Er basiert auf dem Marktwert deines Unternehmens und muss %{amount} erreichen, bevor du Schweizer Franken verdienen kannst",
+        "Dieser Betrag wird auf dein Schweizer Bankkonto eingezahlt, wenn du in einer neuen Stadt beginnst. Er basiert auf dem Marktwert deines Unternehmens und muss %{amount} erreichen, bevor du Schweizer Franken verdienen kannst.",
     CitySize: "Kartengröße",
     GridType: "Zellentyp",
     StartInThisCity: "Starte in %{city}",
@@ -807,11 +807,11 @@ export const DE = {
     ResourceBoosterNotWorking: "⛔ Ressourcenverstärker funktionieren nur neben Minen",
     ResourceBoosterBuildings: "Gebäude werden verstärkt",
     BuildingResourceConversion: "%{resource} Umwandlung",
-    AllTimeSwissMoneyEarned: "Gesamtmenge Schweizer Franken: %{number}",
+    AllTimeSwissMoneyEarned: "Gesamtverdienst Schweizer Franken: %{number}",
     BuildingUpgradeCostDivider: "Kostenteiler für Gebäudeaufwertungen",
     AchievementSoftwareGiant: "Software Gigant",
     AchievementSoftwareGiantDesc:
-        "Erstelle, auf derselben Karte, ein Softwareunternehmen der Stufe 10, ein Betriebssystemunternehmen der Stufe 10, ein Datenbankunternehmen der Stufe 10 und einen Webbrowser der Stufe 10",
+        "Erstelle auf derselben Karte ein Softwareunternehmen der Stufe 10, ein Betriebssystemunternehmen der Stufe 10, ein Datenbankunternehmen der Stufe 10 und einen Webbrowser der Stufe 10",
     AchievementSpaceRace: "Reise ins Weltall",
     AchievementSpaceRaceDesc:
         "Baue auf derselben Karte eine Raketenfabrik der Stufe 10, eine Satellitenfabrik der Stufe 10, eine Raumschifffabrik der Stufe 10 und eine Raumstationsfabrik der Stufe 10",
@@ -822,7 +822,7 @@ export const DE = {
     ItsAllGreenDesc: "Führe 50 verschiedene Produktionslinien ohne ein einziges Produktionsdefizit",
     DeepInRed: "Tiefrot",
     DeepInRedDesc: "Führe 50 Produktionslinien mit Produktionsdefizit",
-    UseScientificNotation: "Wissenschaftliche Notation verwenden",
+    UseScientificNotation: "Wissenschaftliche Schreibweise verwenden",
     UseScientificNotationDesc: "Verwende exponentielle Darstellungen für Zahlen, die größer als 999,9T sind",
     LogoutDescV2:
         "Du hast dich auf einem anderen Gerät angemeldet, dieses Gerät wurde abgemeldet. Du kannst dich zwar wieder anmelden, aber das andere Gerät wird abgemeldet ",
@@ -888,7 +888,7 @@ export const DE = {
     BuildingCustomColorReset: "Zurücksetzen",
     Vancouver: "Vancouver",
     VancouverBonus:
-        "<li>Pro 4 verschiedenen, gebauten Gebäudetypen erhaltst du eine kostenlose Baugenehmigung</li><li>Einzigartige Richtlinie: Produktionsdiversifizierung</li><li>Einzigartiges Gebäude: Ahornsirupfabrik</li><li>Kostenloser Ahornsiruptransport</li><li>Einzigartiger Kraftstoff: Ahornsirup</li><li>2x Spieler-Handelsquote beim Handel mit Uran und angereichertem Uran</li><li>Einzigartige kostenlose Richtlinie: Klebriger Kunststoff</li><li>Spielzeugfabriken haben 2x Produktivität</li><li>Spieleentwickler haben 2x Kapazität</li>",
+        "<li>Pro vier verschiedenen Gebäudetypen erhältst du eine kostenloste Baugenehmigung</li><li>Einzigartige Richtlinie: Produktionsdiversifizierung</li><li>Einzigartiges Gebäude: Ahornsirupfabrik</li><li>Kostenloser Ahornsiruptransport</li><li>Einzigartiger Kraftstoff: Ahornsirup</li><li>Doppelte Handelsquote beim Spielerhandel mit Uran und angereichertem Uran</li><li>Einzigartige kostenlose Richtlinie: Klebriger Kunststoff</li><li>Spielzeughersteller haben 2x Produktivität</li><li>Spieleentwickler haben 2x Kapazität</li>",
     MapExtraPermitDesc: "Du erhältst %{number} kostenlose Baugenehmigungen durch den einzigartigen Bonus der Karte",
     OsloBonusV3:
         "<li>Ölraffinerien sind freigeschaltet</li><li>Ölraffinerien haben 2x Kapazität</li><li>Die Transportrichlinie 'Elektronisches Öl' ist kostenlos</li><li>Gasaufbereitungsanlagen haben 2x Kapazität</li><li>1x kostenlose Windturbine auf Stufe 4</li><li>1x kostenlose Ölquelle auf Stufe 8</li><li>1x kostenlose  Ölraffinerie auf Stufe 2</li><li>1x kostenlose Gaspumpe auf Stufe 2</li>",
@@ -1003,14 +1003,14 @@ export const DE = {
     SwissUpgradeDesc: "Schweizer Upgrades sind permanent und werden in die neue Stadt übertragen",
     SwissBoost: "Schweizer Boost",
     SwissBoostDesc:
-        "Schweizer Boosts gelten nur für deine aktuelle Karte. Sie verfallen, wenn du auf einer neuen Karte startest. (auch, wenn die Stadt dieselbe bleibt)",
+        "Schweizer Boost gelten nur für deine aktuelle Stadt. Bei einem Neustart werden sie zurückgesetzt.",
     ProductionMultipliers: "Produktionsmultiplikator",
     MultiplierMapUniqueBonus: "Einzigartiger Kartenbonus",
     MultiplierSwissUpgrade: "Schweizer Upgrade (Permanent)",
     MultiplierSwissBoost: "Schweizer Boost (Aktuelle Karte)",
     SwissBoostCostDivider: "Schweizer Boost Kostenteiler",
     SwissBoostCostDividerDesc:
-        "Teile die Kosten für Schweizer Boosts durch diesen Wert - gilt nur für Multiplikator- und Teilerboosts",
+        "Teile die Kosten für Multiplikator- und Teilerboosts durch diesen Wert.",
     AirForceCommand: "Luftwaffenführung",
     AirForce: "Luftwaffe",
     StealthFighterFactory: "Tarnkappenbomberfabrik",
@@ -1039,10 +1039,10 @@ export const DE = {
         "Forschungspunkte werden auch offline generiert (basierend auf der Forschungslaborstufe, Wissenschaft im Warenhaus und Offlineerwerbszeit)",
     SanJose: "San José",
     SanJoseBonus:
-        "<li>Einzigartiges Gebäude: Chipfabrik</li><li>Einzigartiges Gebäude: FaceApp Inc</li><li>Einzigartiges Gebäude: Bitcoinminer</li><li>Alle Gebäude, die Silikon verbrauchen erhalten den maximalen Zellenmodifikator</li><li>Solarmodule produzieren doppelt so viel Strom</li><li>Siliziumminen produzieren doppelt so viel</li>",
+        "<li>Einzigartiges Gebäude: Chiphersteller</li><li>Einzigartiges Gebäude: FaceApp Inc</li><li>Einzigartiges Gebäude: Bitcoinminer</li><li>Alle Gebäude, die Silikon verbrauchen erhalten den maximalen Zellenmodifikator</li><li>Solarmodule produzieren doppelt so viel Strom</li><li>Siliziumminen produzieren doppelt so viel</li>",
     RotterdamBonusV2:
         "<li>Stahlwerke haben 2x Kapazität</li><li>Edelstahlanlagen haben 2x Kapazität</li><li>Kostenloser Eisentransport</li><li>Stahltransport kostet 50 % weniger Kraftstoff</li><li>Beginne mit doppelter automatischen Verkaufsmenge</li><li>Die Richtlinie 'Die Erde ist flach' ist kostenlos</li>",
-    ChipManufacturer: "Chipfabrik",
+    ChipManufacturer: "Chiphersteller",
     SnapTokInc: "SnapTok Inc",
     FaceAppInc: "FaceApp Inc",
     BitcoinMiner: "Bitcoinminer",
@@ -1136,7 +1136,7 @@ export const DE = {
     BuildingSourceInvalid: "Deine ausgewählte Quelle ist ungültig, wähle ein gültige Zelle aus.",
     RandomIsland: "Zufällige Insel",
     RandomIslandBonus:
-        "<li>Die Karte ist jedes Mal anders, wenn du neu beginnst.</li><li>Kartengröße, Zellentyp, Ressourcenvorkommen und einzigartige Boni werden zufällig ausgewählt</li><li>Für Kartenneustarts gibt es eine fünfminütige Wartezeit</li>",
+        "<li>Die Karte bei jeden Neustart anders.</li><li>Kartengröße, Zellentyp, Ressourcenvorkommen und einzigartige Boni werden zufällig ausgewählt</li><li>Für Kartenneustarts gibt es eine fünfminütige Wartezeit</li>",
     RandomIslandBonusDesc:
         "Der einzigartige Bonus auf der zufälligen Insel verändert sich jedes Mal, wenn du auf der Karte neu startest.",
     RandomIslandBonusCapacity: "%{building} hat %{multiplier}x Kapazität",
@@ -1313,7 +1313,7 @@ export const DE = {
     Biofuel: "Biotreibstoff",
     RioDeJaneiro: "Rio de Janeiro",
     RioDeJaneiroBonus:
-        "<li>Einzigartiger Kraftstoff: Biotreibstoff</li><li>Kuh-, Schweine- und Hühnerfarmen produzieren zusätzlich Biotreibstoff</li><li>Einzigartiges Gebäude: Biotreibstoffkraftwerk</li><li>Einzigartiges Gebäude: Cristo Redentor</li><li>Ressourcenverstärker können Kuh-, Schweine- und Hühnerfarmen verstärken</li><li>Forstbetriebe produzieren 2x Holz</li><li>Sägewerke haben 2x Kapazität</li><li>Gefrohrenes Hühnchen, Gefrohrenes Schweinefleisch und Dosenrindfleisch haben 2x Quota</li>",
+        "<li>Einzigartiger Kraftstoff: Biotreibstoff</li><li>Schweine-, Geflügel- und Rinderzuchtbetriebe produzieren zusätzlich Biotreibstoff</li><li>Einzigartiges Gebäude: Biotreibstoffkraftwerk</li><li>Einzigartiges Gebäude: Cristo Redentor</li><li>Ressourcenverstärker können Schweine-, Geflügel- und Rinderzuchtbetriebe verstärken</li><li>Forstbetriebe produzieren 2x Holz</li><li>Sägewerke haben 2x Kapazität</li><li>Doppelte Handelsquote für: Gefrohrenes Hühnchen, Gefrohrenes Schweinefleisch und Dosenrindfleisch</li>",
     BiofuelPowerPlant: "Biotreibstoffkraftwerk",
     CristoRedentor: "Cristo Redentor",
     CristoRedentorBanner:
